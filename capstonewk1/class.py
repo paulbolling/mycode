@@ -20,7 +20,7 @@ while(True): 									#Question 1
 	elif answer > int('14'):
 		print('		Are you sure? That seems a bit high.		')
 		print()
-	elif(round==5):
+	elif(round==4):
 		print('		Sorry the answer was 13. If all else fails you can just count.')
 		print()
 		break
@@ -34,10 +34,10 @@ while(True):									#Question 2
 	print('Do you like this classroom? Yes or No')
 	answer = input()
 	if answer.lower() == 'yes':
-		print('		That is what TLG likes to hear.')
+		print('		That\'s what TLG likes to hear.')
 		print()
 		break
-	elif(round==3):
+	elif(round==2):
 		print('		You had a 50/50 chance if getting it right!!')
 		print()
 		break
