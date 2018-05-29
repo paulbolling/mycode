@@ -50,7 +50,7 @@ while(True):									#Question 3
 	print('What time does class start? __am')
 	answer = int(input())
 	if answer == int('8'):
-		print('		Five days a week, well four days this week.')
+		print('		5 days a week, well 4 days this week.')
 		print()
 		break
 	
