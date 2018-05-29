@@ -9,11 +9,12 @@ while(True): 									#Question 1
 		break
 	if answer.lower() =='14':
 		print('Remember Mahad is not here anymore')
+	
 	elif(round==6):
 		print('Sorry the answer was 13. If all else fails you can just count.')
 		break
 	else:	
-		print('Who did you forget?')
+		print('Try agian?')
 
 round = 0
 while(True):									#Question 2
