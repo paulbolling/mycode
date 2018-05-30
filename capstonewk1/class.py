@@ -43,14 +43,18 @@ while(True):									#Question 2
 		print()
 		quit
 	else:	
-		print('		The room maybe bugged...try agian')
+		print('		The room maybe bugged...try again')
 		print()
 round = 0
 while(True):									#Question 3
 	round = round + 1
 	print('What time does class start? __am')
 	answer = int(input())
-	if answer == int('8'):
+	if(round==2):
+		print('		Look at the board')
+		print()
+		quit
+	elif answer == int('8'):
 		print('		5 days a week, well 4 days this week.')
 		print()
 		break
@@ -62,10 +66,7 @@ while(True):									#Question 3
 		print('		That is way too early. Have fun alone.')
 		print()
 
-	elif(round==3):
-		print('		Look at the board')
-		print()
-		quit
+	
 	else:	
 		print('		Try agian')
 		print()
