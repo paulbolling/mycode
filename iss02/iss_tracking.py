@@ -42,3 +42,5 @@ lat = round(float(lat))
 
 iss.penup()
 iss.goto(lon, lat)
+turtle.mainloop()
+
