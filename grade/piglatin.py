@@ -15,6 +15,9 @@ def  piglat(word):
     return pig_word
 
 print('Enter word to translate to Pig Latin :')
+word = input()
+
+print('That is ' + piglat(word) + ' in Pig Latin')
 
 ############working on getting to be interactive on the command line##########
 
